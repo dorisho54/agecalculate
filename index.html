@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>agecalculate</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>妙麗年齡計算機</title>
+    <!-- 連結外部 CSS 檔案 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="icon-header">🐶</div>
+    <h1>妙麗年齡計算機</h1>
+    
+    <div class="input-group">
+        <label for="birthDate">請選擇妙麗出生日期：</label>
+        <input type="date" id="birthDate" required>
+    </div>
+
+    <button id="calculateBtn">立即計算</button>
+
+    <div class="result-area" id="resultArea">
+        <div class="result-item">
+            <span class="result-label">妙麗實際年齡：</span>
+            <span class="result-value" id="actualAgeText">--</span>
+        </div>
+        <div class="result-item">
+            <span class="result-label">相當於人類年齡：</span>
+            <span class="result-value" id="humanAgeText">--</span>
+        </div>
+        <div class="formula-note">
+            註：人類年齡公式為 16 × ln(實際年齡) + 31。<br>
+            若計算結果小於 1 歲，將顯示為幼兒期。
+        </div>
+    </div>
+</div>
+
+<!-- 連結外部 JavaScript 檔案 -->
+<script src="script.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
